@@ -3,23 +3,37 @@
   /* header */
   header {
     padding: 8px 12px;
+  }
+
+  .header_logo_container {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .header_logo {
-    position: unset;
+    position: static;
     width: 74px;
     height: 33px;
   }
 
   .header_hamburger {
-    display: unset;
+    display: inline;
     width: 40px;
     height: 40px;
   }
 
-  .header_nav_list {
+  .header_nav {
     display: none;
+  }
+
+  .header_logo_container:focus-within ~ .header_nav {
+    display: block;
+    text-align: center;
+  }
+
+  .header_logo_container:focus-within ~ .header_nav > .header_nav_list {
+    display: block;
   }
 
   /* banner */

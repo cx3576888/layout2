@@ -16,19 +16,25 @@ a {
 header {
   border-bottom: 1px solid #F1F1F1;
   padding: 32px 16.25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.header_logo_container {
   position: relative;
 }
 
 .header_logo {
   position: absolute;
-  left: 16.25%;
+  left: 0;
+  top: -8px;
 }
 
 .header_hamburger {
   display: none;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: center;
 }
 
 .header_nav_list {
