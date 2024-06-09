@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="all.css">
+  <link rel="stylesheet" href="mobile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,6 +19,7 @@
     <header>
       <object class="header_logo" width="90" height="40" data="images/logo.svg" type="image/svg+xml"></object>
       <nav>
+        <a href="#"><img class="header_hamburger" src="images/hamburger-menu.svg" alt="主選單圖示"></a>
         <ul class="header_nav_list">
           <li class="header_nav_item">
             <a href="#">首頁</a>
@@ -61,17 +63,22 @@
       <div class="banner_titles">
         <img class="banner_quote_left" src="images/quote-left.png" alt="裝飾用的左引號">
         <img class="banner_quote_right" src="images/quote-right.png" alt="裝飾用的右引號">
-        <h2 class="banner_title">讓使用者在觀賞與使用的旅程中，發現設計的價值<img class="banner_underline1" src="images/mark.png" alt="橘色底線">
-        </h2>
+        <div class="banner_title_container">
+          <h2 class="banner_title">讓使用者在觀賞與使用的旅程中，</h2>
+          <h2 class="banner_title">發現設計的價值<img class="banner_underline" src="images/mark.png" alt="橘色底線"></h2>
+        </div>
         <div class="banner_spacer"></div>
-        <h2 class="banner_title">而我在設計與開發的過程中，看見自己的價值<img class="banner_underline2" src="images/mark.png" alt="橘色底線">
-        </h2>
+        <div class="banner_title_container">
+          <h2 class="banner_title">而我在設計與開發的過程中，</h2>
+          <h2 class="banner_title">看見自己的價值<img class="banner_underline" src="images/mark.png" alt="橘色底線"></h2>
+        </div>
       </div>
       <ul class="banner_list">
         <li class="banner_list_item">
           <h4 class="banner_list_item_title">2B經驗</h4>
           <p class="banner_list_item_p">內部監控系統、庫存系統、採購系統、行銷整合系統</p>
         </li>
+        <li class="banner_list_spacer_item"></li>
         <li class="banner_list_item">
           <h4 class="banner_list_item_title">2C經驗</h4>
           <p class="banner_list_item_p">跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
@@ -80,7 +87,7 @@
     </section>
     <main>
       <div class="cards">
-        <div>
+        <div class="card">
           <img class="card_image" src="images/work-image1.png" alt="星際旅行訂票平台的圖片">
           <div class="card_content">
             <h3 class="card_title">星際旅行訂票平台</h3>
@@ -92,7 +99,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img class="card_image" src="images/work-image2.png" alt="理財App的圖片">
           <div class="card_content">
             <h3 class="card_title">理財App</h3>
@@ -104,7 +111,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img class="card_image" src="images/work-image3.png" alt="醫美診所官網的圖片">
           <div class="card_content">
             <h3 class="card_title">醫美診所官網</h3>
@@ -116,7 +123,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img class="card_image" src="images/work-image4.png" alt="美美美早餐店 POS 機 UI Design的圖片">
           <div class="card_content">
             <h3 class="card_title">美美美早餐店 POS 機 UI Design</h3>
@@ -128,7 +135,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img class="card_image" src="images/work-image5.png" alt="電影院訂票系統的圖片">
           <div class="card_content">
             <h3 class="card_title">電影院訂票系統</h3>
@@ -140,7 +147,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img class="card_image" src="images/work-image6.png" alt="巧克巧克形象官網設計的圖片">
           <div class="card_content">
             <h3 class="card_title">巧克巧克形象官網設計</h3>
@@ -160,7 +167,7 @@
       </ul>
     </main>
     <footer>
-      <div>
+      <div class="footer_content">
         <object class="footer_logo" width="120" height="54" data="images/logo.svg" type="image/svg+xml"></object>
         <p class="footer_p">若有數位產品設計和開發相關問題</p>
         <p class="footer_p">歡迎填寫表單，或直接與我聯絡！</p>
@@ -168,7 +175,7 @@
           <a href="mailto:service@hexschool.com">service@hexschool.com</a>
         </address>
       </div>
-      <ul>
+      <ul class="footer_links">
         <li class="footer_link">
           <a class="footer_link_a" href="#">
             <object width="56" height="56" data="images/list.svg" type="image/svg+xml"></object>

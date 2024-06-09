@@ -1,0 +1,118 @@
+@media (width <=991px) {
+
+  /* header */
+  header {
+    padding: 8px 12px;
+    justify-content: space-between;
+  }
+
+  .header_logo {
+    position: unset;
+    width: 74px;
+    height: 33px;
+  }
+
+  .header_hamburger {
+    display: unset;
+    width: 40px;
+    height: 40px;
+  }
+
+  .header_nav_list {
+    display: none;
+  }
+
+  /* banner */
+  .banner {
+    max-width: 300px;
+    padding-top: 40px;
+  }
+
+  .banner_titles {
+    padding-bottom: 0;
+  }
+
+  .banner_quote_left {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banner_quote_right {
+    display: none;
+  }
+
+  .banner_spacer {
+    height: 8px;
+  }
+
+  .banner_title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .banner_underline {
+    width: 108px;
+    height: 6px;
+    bottom: 4px;
+    right: -6px;
+  }
+
+  .banner_list {
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .banner_list_item {
+    width: 100%;
+  }
+
+  .banner_list_spacer_item {
+    display: unset;
+    height: 20px;
+  }
+
+  /* cards */
+  .cards {
+    padding: 80px 12px 48px 12px;
+    row-gap: 48px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .card_title {
+    font-size: 20px;
+  }
+
+  .card_tags {
+    margin-top: 16px;
+    column-gap: 8px;
+  }
+
+  /* pages */
+  .pages {
+    margin-bottom: 80px;
+  }
+
+  /* footer */
+  footer {
+    background-image: url('images/footer-bg-sm.png');
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+  }
+
+  .footer_content {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .footer_mail {
+    line-height: 1.5;
+  }
+
+  .footer_links {
+    padding: 40px 10%;
+  }
+}
